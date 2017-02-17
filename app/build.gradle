@@ -27,5 +27,12 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.1.1'
     compile 'com.android.support:design:25.1.1'
     compile 'com.jakewharton:butterknife:8.4.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
+
+    compile 'io.reactivex:rxjava:1.2.2' // RxJava
+    compile 'io.reactivex:rxandroid:1.2.1' // RxAndroid providing Android Scheduler
+    compile 'com.jakewharton.rxbinding:rxbinding:0.4.0' // RxBinding
+
+
     testCompile 'junit:junit:4.12'
 }
